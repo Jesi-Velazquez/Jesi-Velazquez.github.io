@@ -1,0 +1,521 @@
+/* SELECTOR UNIVERSAL */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+
+/* BODY */
+
+body {
+    background-image: url(../img/bg/bg.jpg);
+
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+/* MAIN */
+
+main {
+    max-width: 980px;
+    margin: auto;
+    background-color: #d5edf3;
+    box-shadow: 0 1px 1px 1px #e5f0f3;
+}
+
+
+.color-blanco:hover {
+
+    color: #E83856;
+    background-color: #f0f8ff;
+    border-radius: 10px 10px 10px;
+}
+
+/* HEADING */
+
+/* H1 */
+
+h1 {
+    font-size: 5rem;
+    color: #f0f8ff;
+    justify-content: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 1px #be276d;
+
+}
+
+/* H2 */
+
+h2 {
+    display: block;
+    color: white;
+    background-color: #be276d;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    border-bottom: 10px solid #be276d;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 0 2px 1px #cb0627;
+}
+
+
+
+/* H3 */
+
+h3 {
+    font-weight: bold;
+    color: #E8317B;
+}
+
+.bg-agua {
+    background-color: #dcf3f8;
+}
+
+.sombraTexto {
+    text-shadow: 1px 2px 1px #e83855ac;
+
+}
+
+
+
+.productos_1 h3 {
+    color: #f0f8ff;
+    background-color: #4e94a4;
+    font-weight: 500;
+    border-bottom: 6px solid #7abdcc;
+    font-size: 1.2rem;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-right: 4rem;
+
+}
+
+.tienda_1 h3,
+.spanMovil {
+    display: block;
+    color: #f0f8ff;
+    background-color: #4e94a4;
+    font-weight: 500;
+    /* border-bottom: 3px solid #7abdcc; */
+    font-size: 1.2rem;
+    text-align: right;
+    letter-spacing: 3px;
+
+
+}
+
+.spanMovil {
+
+    background-color: #7abdcc;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: right;
+
+}
+
+.spanTabletPc {
+    display: block;
+    color: #f0f8ff;
+    background-color: #7abdcc;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: right;
+    letter-spacing: 3px;
+
+}
+
+.cambio:hover {
+    background-color: #6b2379;
+    color: #f0f8ff
+}
+
+
+
+/* PROMOCIONES */
+
+.promociones {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #f0f8ff;
+    font-weight: 300;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.texto-promociones {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    justify-content: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.boton-descuento {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 170px;
+    text-transform: uppercase;
+    color: #f0f8ff;
+    background-color: #431859;
+
+
+}
+
+.boton-descuento:hover {
+    color: #f0f8ff;
+    background-color: #6b2379;
+
+}
+
+.botonEnviar {
+    color: #f0f8ff;
+    border: 2px solid #eacdf9;
+}
+
+.botonEnviar:hover {
+    color: #f0f8ff;
+    background-color: #6b2379;
+
+}
+
+.texto-blanco {
+    color: #f0f8ff;
+}
+
+.botonComprar {
+    width: 130px;
+    letter-spacing: 1px;
+
+}
+
+.botonCerrar:hover {
+    background-color: rgb(102, 101, 101);
+
+
+
+}
+
+
+/* SECCIONES */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*COLOR DE FONDO */
+
+.bg-color {
+    background-color: #ff076a;
+}
+
+.color-blanco {
+    color: #f0f8ff;
+}
+
+.bg-cyan {
+    background-color: #4e94a4;
+}
+
+.bg-violeta {
+    background-color: #431859;
+}
+
+.bg-gris {
+    background-color: rgb(74, 73, 73);
+}
+
+.bg-grisClaro {
+    background-color: rgb(102, 101, 101);
+}
+
+
+.bg-tarjetas-productos {
+    background-color: #e3cde5;
+}
+
+.bg-violetaClaro {
+    background-color: #dabadd;
+}
+
+.bgFotterModal {
+
+    background-color: #d5edf3;
+}
+
+.bgTiendaTarjetas {
+
+    background-color: #dbebef;
+}
+
+.bg-fuccia {
+    background-color: #71096a;
+
+}
+
+
+.bg-fucciaClaro {
+    background-color: #71096a70;
+
+}
+
+
+.bg-naranja {
+    background-color: #f07f19;
+}
+
+/* SOMBRA DE LAS IMAGENES */
+
+.sombra-img {
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.555);
+    border: 2px solid #eacdf9;
+}
+
+.sombra-tarjetas {
+
+    border: 0 5px 5px solid #eacdf9;
+}
+
+.sombraBotonComprar {
+    box-shadow: 2px 3px 2px rgb(232, 231, 231)
+}
+
+.acordeon {
+    background-color: #4e94a4;
+    color: #f0f8ff;
+    width: 100%;
+    border: none;
+}
+
+.acordeon:hover {
+    background-color: #41889a;
+    color: #f0f8ff;
+}
+
+.altura {
+    height: 380px;
+}
+
+
+.alturaTabletPc {
+    height: 420px;
+}
+
+
+.altura-masDetalles {
+    height: 360px;
+}
+
+.espacioLetras {
+    letter-spacing: 2px;
+}
+
+.textPrimeraMayuscula {
+    text-transform: unset;
+}
+
+.botonTabletCombos {
+
+    padding-top: 8px;
+}
+
+p {
+    letter-spacing: 0.8px;
+}
+
+/* TIENDA */
+.tiendaPrecios {
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding-bottom: 4rem;
+    text-shadow: 0 1px 1px white
+}
+
+/* MODAL */
+
+.preciosModal {
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0 1px 1px white
+}
+
+.pBorder {
+    border-bottom: 4px solid #4e94a4;
+}
+
+
+/* SECCION GALERIA | USO UNICAMENTE FLEX */
+
+.contenedor-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #431859;
+
+
+}
+
+.contenedor-img>img {
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid #eacdf9;
+    margin: 1rem;
+
+
+}
+
+.tamañoTexto {
+    font-size: 12px;
+}
+
+.contenedor_footer {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3rem;
+    justify-content: center;
+    gap: 1rem;
+    border-top: 5rem solid #4e1b68;
+    background: #321143;
+    width: 100%;
+    align-content: center;
+    padding-top: 4rem;
+
+
+}
+
+.contenedor_footer>img {
+    width: 100px;
+    border-radius: 40px 40px;
+
+}
+
+.contenedor_footer>p {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: white;
+    margin: auto;
+    text-align: right;
+    text-shadow: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ADAPTABLE - RESPONSIVE */
+/* PANTALLA MOVIL | OCULTAR ÍCONO DEL MENU HAMBURGUESA */
+
+@media screen and (max-width: 768px) {
+
+    .navbar-brand {
+        display: none;
+
+    }
+}
+
+
+@media screen and (min-width: 462px) and (max-width: 767px) {
+
+    .alturaTabletPc {
+        height: 360px;
+    }
+
+   
+
+
+}
+
+
+/* SIEMPRE QUE LA PANTALLA TENGA MAS DE 577px DISPONIBLES*/
+/* MEDIDAS PARA TABLET*/
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* SECCION GALERIA | USO UNICAMENTE FLEX */
+
+    .contenedor-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .contenedor-img img {
+        width: 40%;
+
+
+
+    }
+
+}
+
+/* SIEMPRE QUE LA PANTALLA TENGA AL MENOS 993px DISPONIBLES*/
+/* MEDIDAS PARA PC*/
+
+@media screen and (min-width: 993px) {
+
+    .contenedor-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contenedor-img img {
+        width: 40%;
+
+
+    }
+
+}
